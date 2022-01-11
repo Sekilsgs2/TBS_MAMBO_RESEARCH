@@ -44,6 +44,8 @@ reg 0x6 = 0x8000
 
 This all setting tbs using for mlx90393 chips.
 
+I'm have added simple driver for opentx which can writing and reading regs for mlx90393 chips in tbs mambo - i'm not adding spi2 init function because crossfire fw initialising spi2 for us..
+
 
 
 
