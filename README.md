@@ -9,7 +9,8 @@ tbs mambo using spi2 for mlx chips
 cs for first mlx90393 chip = GPIOD 7
 cs for second mlx90393 chip = GPIOE 8
 
-Maybe using interrupt pins for each mlx chips - not finded now..
+interrupt for first mlx90393 chip = GPIOC 5
+interrupt for second mlx90393 chip = GPIOB 9
 
 tbs using this settings for chips:
 
