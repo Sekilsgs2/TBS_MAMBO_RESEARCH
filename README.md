@@ -12,6 +12,18 @@ cs for second mlx90393 chip = GPIOE 8
 interrupt for first mlx90393 chip = GPIOC 5
 interrupt for second mlx90393 chip = GPIOB 9
 
+pc13 - reset sx1281
+pe10 - busy sx1281
+pe11 - dio1 sx1281
+pe12 - dio2 sx1281
+pe13 - dio3 sx1281
+pe3 - css sx1281
+pe14 - CRX - CY65383-11
+pe6 - CTX - CY65383-11
+pe15 - ??? CSD?? CY65383-11
+PB10 - clk spi2
+PC2/PC3 - spi2 
+
 tbs using this settings for chips:
 
 	OSR	0						
